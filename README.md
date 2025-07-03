@@ -4,12 +4,12 @@ A Python tool that compares two CSV files and creates a third CSV file with a ma
 
 ## Features
 
-- **Header Mapping**: Automatically suggests column mappings between CSV files with user override capability
-- **Flexible Matching**: User can select which columns to use for exact matching
-- **GUI Interface**: Simple and intuitive, albeit "old school, graphical user interface
-- **Auto-naming**: Automatically generates output filename
-- **Error Handling**: Robust handling of missing data and different column structures
-- **Cross-platform**: Works on Windows, macOS, and Linux
+- **Header Mapping**: Automatically suggests column mappings between CSV files with user override capability.
+- **Flexible Matching**: User can select which columns to use for exact matching.
+- **GUI Interface**: Simple and intuitive, albeit "old school, graphical user interface.
+- **Auto-naming**: Automatically generates output filename.
+- **Error Handling**: Robust handling of missing data and different column structures.
+- **Cross-platform**: Works on Windows, macOS, and Linux.
 
 ## Installation
 
