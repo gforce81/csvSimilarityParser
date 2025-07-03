@@ -1,12 +1,12 @@
 # CSV Similarity Parser
 
-A Python tool that compares two CSV files and creates a third CSV file with approval status based on exact row matches.
+A Python tool that compares two CSV files and creates a third CSV file with a matching status based on exact row matches.
 
 ## Features
 
 - **Header Mapping**: Automatically suggests column mappings between CSV files with user override capability
 - **Flexible Matching**: User can select which columns to use for exact matching
-- **GUI Interface**: Simple and intuitive graphical user interface
+- **GUI Interface**: Simple and intuitive, albeit "old school, graphical user interface
 - **Auto-naming**: Automatically generates output filename
 - **Error Handling**: Robust handling of missing data and different column structures
 - **Cross-platform**: Works on Windows, macOS, and Linux
@@ -85,13 +85,14 @@ python csv_similarity_parser.py
    - Use "Edit Mapping" to modify any mappings
    - Use "Remove Mapping" to remove unwanted mappings
    - Use "Auto Map" to regenerate suggestions
+   - Use "Add Mapping" to map unmatched columns
 
 3. **Matching Configuration**:
    - Select which columns to use for exact matching (checkboxes)
    - All mapped columns are selected by default
 
-4. **Approval Column**:
-   - Enter a name for the new approval column (default: "Approval Status")
+4. **Match Column**:
+   - Enter a name for the new matched status column (default: "Approval Status")
 
 5. **Processing**:
    - Click "Process Files" to generate the output CSV
@@ -102,28 +103,28 @@ python csv_similarity_parser.py
 - The tool creates a new CSV file with all rows from the second file
 - Adds a new column with "YES" for rows that have exact matches in the first file
 - Adds "NO" for rows that don't have matches
-- Output filename format: `{original_name}_with_approval_{timestamp}.csv`
+- Output filename format: `{original_name}_with_matched_status_{timestamp}.csv`
 
 ## Example
 
 **CSV 1 (Reference)**:
 ```
 Username,First Name,Last Name,Group
-brian.dawson@numo.com,Brian,Dawson,admin
+mike.taylor@lacompagnie.com,Mike,Taylor,admin
 john.doe@company.com,John,Doe,user
 ```
 
 **CSV 2 (To Process)**:
 ```
 Username,First Name,Last Name,Group,Manager
-brian.dawson@numo.com,Brian,Dawson,admin,Manager A
+mike.taylor@lacompagnie.com,Mike,Taylor,admin,Manager A
 jane.smith@company.com,Jane,Smith,user,Manager B
 ```
 
 **Output CSV**:
 ```
 Username,First Name,Last Name,Group,Manager,Approval Status
-brian.dawson@numo.com,Brian,Dawson,admin,Manager A,YES
+mike.taylor@lacompagnie.com,Mike,Taylor,admin,YES
 jane.smith@company.com,Jane,Smith,user,Manager B,NO
 ```
 
