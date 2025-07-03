@@ -1,0 +1,5 @@
+Username,First Name,Last Name,Department,Manager,Project,Approval Status
+john.doe@company.com,John,Doe,IT,Manager A,Project Alpha,YES
+jane.smith@company.com,Jane,Smith,HR,Manager B,Project Beta,YES
+alice.jones@company.com,Alice,Jones,Marketing,Manager C,Project Gamma,NO
+bob.wilson@company.com,Bob,Wilson,Sales,Manager D,Project Delta,YES

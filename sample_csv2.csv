@@ -1,0 +1,11 @@
+Username,First Name,Last Name,Group,Manager,ManagerID,Note,Approved in Q1 2025 Campaign
+lacompagnie.admin.2@lacompagnie.com,lacompagnie,Administrator-2,2factor_users,Tim Soup,tim@lacompagnie.com,Admin Account,
+lacompagnie.admin.2@lacompagnie.com,lacompagnie,Administrator-2,dev-super-admins,Tim Soup,tim@lacompagnie.com,Admin Account,
+lacompagnie.admin.2@lacompagnie.com,lacompagnie,Administrator-2,prod-admins,Tim Soup,tim@lacompagnie.com,Admin Account,
+lacompagnie.admin.2@lacompagnie.com,lacompagnie,Administrator-2,prod-aws-root-accounts,Tim Soup,tim@lacompagnie.com,Admin Account,
+lacompagnie.admin.2@lacompagnie.com,lacompagnie,Administrator-2,prod-super-admins,Tim Soup,tim@lacompagnie.com,Admin Account,
+lacompagnie.admin.2@lacompagnie.com,lacompagnie,Administrator-2,intranet-user,Tim Soup,tim@lacompagnie.com,Admin Account,
+lacompagnie.admin.2@lacompagnie.com,lacompagnie,Administrator-2,device-exemption,Tim Soup,tim@lacompagnie.com,Admin Account,
+lacompagnie.admin.2@lacompagnie.com,lacompagnie,Administrator-2,dclown@lacompagnie.com,Tim Soup,tim@lacompagnie.com,Admin Account,
+mike.taylor@lacompagnie.com,Brian,Dawson,admin,Tim Soup,tim@lacompagnie.com,Regular User,
+mike.taylor@lacompagnie.com,Brian,Dawson,2factor_fido2_users,Tim Soup,tim@lacompagnie.com,Regular User, 
